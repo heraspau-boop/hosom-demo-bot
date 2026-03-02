@@ -5,6 +5,8 @@ Bot Telegram súper simple para la DEMO HOSOM
   - Abrir miniapp
   - Ver grupo demo (opcional)
 """
+import asyncio
+asyncio.set_event_loop(asyncio.new_event_loop())
 import os
 import re
 from dotenv import load_dotenv
